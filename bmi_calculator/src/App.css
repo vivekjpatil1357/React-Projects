@@ -1,0 +1,69 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('https://www.pixel4k.com/wp-content/uploads/2018/10/dumbbells-gym-weight-disks-4k_1540063283.jpg'); /* Path to your image */
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 100vh; /* Makes the container full height */
+  width: 100vw; /* Makes the container full width */
+  /* background: url('./bg.jpeg') no-repeat ; */
+  
+
+}
+
+.main {
+  backdrop-filter: blur(14px) saturate(200%);
+  -webkit-backdrop-filter: blur(14px) saturate(200%);
+  background-color: rgba(17, 25, 40, 0.65);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: wheat;
+  width: 30vw;
+  padding: 5px 25px;
+  border-radius: 11px;
+  box-shadow: 0px 0px white;
+}
+.logo{
+  margin: 10px 0px 0px 0px;
+  width: 60px;
+}
+.heading{
+  margin-top: 5px;
+}
+.inputs {
+  border-top: black solid 2px;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.bmi-area {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: wheat;
+}
+
+.bmi {
+  color: white;
+  background-color: #ffffff30;
+  border: black solid 3px;
+  padding: 3px 25px;
+  border-radius: 8px;
+}
+
+.result {
+  /* background-color: #00000030; */
+  padding: 3px 5px;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+}
